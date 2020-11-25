@@ -7,10 +7,16 @@
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
+    "@emotion/react": "^11.1.1",
+    "@emotion/styled": "^11.0.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "tailwindcss": "^2.0.1",
+    "twin.macro": "^1.12.1"
   },
   "devDependencies": {
+    "@snowpack/app-scripts-react": "^1.12.6",
     "@snowpack/plugin-dotenv": "^2.0.4",
     "@snowpack/plugin-react-refresh": "^2.3.7",
     "@snowpack/plugin-typescript": "^1.1.0",
